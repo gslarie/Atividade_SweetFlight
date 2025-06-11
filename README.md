@@ -16,26 +16,6 @@
 - **Java 8+**
 - Execução via terminal ou IDE (ex: Eclipse, IntelliJ IDEA, VS Code com Extensão Java)
 
-📝 Observações
-O sistema aceita até 4 aviões e 20 reservas no total.
-
-Ao buscar nome de passageiro, só a primeira palavra é considerada. (ex: “Maria Silva” será salvo como “Maria”).
-
-Se digitar letras onde se espera número, o sistema trata o erro e volta ao menu.
-
-Futuras melhorias podem incluir:
-
-Uso de ArrayList ao invés de arrays fixos
-
-Leitura de nome completo do passageiro (nextLine())
-
-Interface gráfica (GUI)
-
-Armazenamento em arquivo ou banco de dados
-
-👩‍💻 Autora
-Desenvolvido por Larissa como parte dos estudos em Java e estrutura de programas orientados a objetos. ✨
-
 ## ▶️ Como executar
 
 ### 1. Clonar o repositório (opcional)
