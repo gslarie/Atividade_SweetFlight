@@ -1,26 +1,54 @@
-✈️ SweetFlight
+# ✈️ SweetFlight
 
-Sistema simples de reservas de passagens aéreas, feito em Java.
+**SweetFlight** é um sistema simples de reservas de passagens aéreas feito em Java, utilizando entrada via terminal. O programa permite registrar aviões, definir a quantidade de assentos disponíveis e realizar reservas de forma interativa.
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
-- Registrar aviões (até 4).
-- Registrar quantidade de assentos disponíveis por avião.
-- Reservar passagem para um passageiro.
-- Consultar reservas por número do avião.
-- Consultar reservas por nome do passageiro.
+- ✅ Registrar número de até 4 aviões
+- ✅ Definir a quantidade de assentos disponíveis por avião
+- ✅ Reservar passagem para um passageiro
+- ✅ Consultar reservas por número do avião
+- ✅ Consultar reservas por nome do passageiro
+- ✅ Menu interativo em loop até a opção de sair
 
-🧰 Tecnologias usadas
+## 🧰 Tecnologias utilizadas
 
-- Java (console)
-- IDE sugerida: Eclipse, IntelliJ ou VS Code com extensão Java
+- **Java 8+**
+- Execução via terminal ou IDE (ex: Eclipse, IntelliJ IDEA, VS Code com Extensão Java)
 
-▶️ Como executar
+📝 Observações
+O sistema aceita até 4 aviões e 20 reservas no total.
 
-Clone o repositório ou copie o código para seu computador.
+Ao buscar nome de passageiro, só a primeira palavra é considerada. (ex: “Maria Silva” será salvo como “Maria”).
 
-Compile e execute o arquivo SweetFlight.java em uma IDE Java ou pelo terminal:
+Se digitar letras onde se espera número, o sistema trata o erro e volta ao menu.
 
+Futuras melhorias podem incluir:
+
+Uso de ArrayList ao invés de arrays fixos
+
+Leitura de nome completo do passageiro (nextLine())
+
+Interface gráfica (GUI)
+
+Armazenamento em arquivo ou banco de dados
+
+👩‍💻 Autora
+Desenvolvido por Larissa como parte dos estudos em Java e estrutura de programas orientados a objetos. ✨
+
+## ▶️ Como executar
+
+### 1. Clonar o repositório (opcional)
+```bash
+git clone https://github.com/seu-usuario/sweetflight.git
+cd sweetflight
 javac SweetFlight.java
-
 java SweetFlight
+
+---- Menu SweetFlight ----
+1. Registrar número dos aviões
+2. Registrar quantidade de assentos disponíveis
+3. Reservar passagem aérea
+4. Consultar por avião
+5. Consultar por passageiro
+6. Sair do sistema
