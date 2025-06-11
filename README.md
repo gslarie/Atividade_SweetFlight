@@ -18,6 +18,8 @@ Sistema simples de reservas de passagens aéreas, feito em Java.
 ▶️ Como executar
 
 Clone o repositório ou copie o código para seu computador.
+
 Compile e execute o arquivo SweetFlight.java em uma IDE Java ou pelo terminal:
+
 javac SweetFlight.java
 java SweetFlight
